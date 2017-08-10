@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/order/Trader.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/gui/OrderTableModel.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/gui/PositionTableModel.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/position/PositionManager.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/position/Position.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/gui/ConfigFrame.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/controller/ApiController.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/order/CancelHandler.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/api/IBReader.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/config/Configs.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/api/IBClient.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/order/OrderManager.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/thread/NewThreadFactory.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/gui/QuoteRobotFrame.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/order/OrderHandler.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/config/ConfigReader.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/engine/MainQuoteEngine.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/thread/ExecutorPool.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/position/PositionMonitor.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/order/OrderInfo.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/quote/QuoteManager.java</file>
+            <file>file:/C:/Users/Siteng%20Jin/Documents/NetBeansProjects/QuoetingRobot/src/com/ib/engine/MainQuoteEngineForGUI.java</file>
+        </group>
+    </open-files>
+</project-private>

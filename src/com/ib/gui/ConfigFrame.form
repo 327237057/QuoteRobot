@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="hostLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="hostField" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="portlabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="portField" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="clientIdLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="clientidField" linkSize="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="positionAdjustLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="priceDistortionRateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="staticOffsetLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="orderSizeDefaultLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="accountLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="sourceConidLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="sizeDistortionRateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="sourceExchangeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="tradeConidLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="tradeExchangeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="hedgeMultiLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="defaultSpreadlLbel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="stopQuoteSizeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="confirmBtn" linkSize="3" alignment="0" min="-2" pref="127" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="accountField" linkSize="2" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
+                          <Component id="stopQuoteSizeField" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="positionAdjustField" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="defaultSpreadField" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="hedgeMultiField" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="tradeExchangeField" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="tradeConidField" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="sourceExchangeField" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="sourceConidField" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="sizeDistortionRateField" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="priceDistortionRateField" linkSize="2" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                          <Component id="staticOffsetField" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="orderSizeDefaultField" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cancelBtn" linkSize="3" alignment="0" min="-2" pref="114" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="hostLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hostField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="portlabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="portField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="clientIdLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="clientidField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="accountLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="accountField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="orderSizeDefaultLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="orderSizeDefaultField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="staticOffsetLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="staticOffsetField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="priceDistortionRateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="priceDistortionRateField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="sizeDistortionRateLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="sizeDistortionRateField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="sourceConidLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sourceConidField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="sourceExchangeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sourceExchangeField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tradeConidLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tradeConidField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="tradeExchangeLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="tradeExchangeField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="hedgeMultiLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="hedgeMultiField" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="defaultSpreadlLbel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="defaultSpreadField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="stopQuoteSizeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stopQuoteSizeField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="positionAdjustLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="positionAdjustField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="confirmBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cancelBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="hostLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Host: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="hostField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="127.0.0.1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="portlabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Port: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="portField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="7496"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="clientIdLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Client ID: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="clientidField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="accountLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ACCOUNT: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="orderSizeDefaultLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ORDER_SIZE_DEFAULT: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="staticOffsetLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="STATIC_OFFSET: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="priceDistortionRateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PRICE_DISTORTION_RATE: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sizeDistortionRateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SIZE_DISTORTION_RATE: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sourceConidLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SOURCE_CONID: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sourceExchangeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SOURCE_EXCHANGE: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tradeConidLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TRADE_CONID: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tradeExchangeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TRADE_EXCHANGE: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hedgeMultiLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HEDGE_MULTIPLIER: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="defaultSpreadlLbel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DEFAULT_SPREAD: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="stopQuoteSizeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="STOP_QUOTING_SIZE: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="positionAdjustLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="POSITION_ADJUSTMENT: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="priceDistortionRateField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="staticOffsetField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="orderSizeDefaultField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="accountField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="sourceConidField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="sizeDistortionRateField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="sourceExchangeField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tradeConidField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tradeExchangeField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="hedgeMultiField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="defaultSpreadField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="stopQuoteSizeField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="positionAdjustField">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="confirmBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Confirm"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="confirmBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="cancelBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelBtnActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
