@@ -6,8 +6,6 @@
 package com.ib.order;
 
 import static com.ib.order.Trader.ORDERCANCELMONITORLOCK;
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
 import org.apache.log4j.Logger;
 import com.ib.api.IBClient;
 import java.util.List;

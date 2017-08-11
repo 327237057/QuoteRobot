@@ -5,8 +5,6 @@
  */
 package com.ib.gui;
 
-import com.ib.config.ConfigReader;
-import com.ib.config.Configs;
 import com.ib.order.OrderInfo;
 import java.util.concurrent.ConcurrentHashMap;
 import javax.swing.table.AbstractTableModel;

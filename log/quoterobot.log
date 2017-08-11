@@ -1,0 +1,186 @@
+2017-08-11 08:17:05 840 DEBUG [AWT-EventQueue-0] ConfigReader:59 - Successfully loaded config: {SOURCE_EXCHANGE=SMART, HEDGE_MULTIPLIER=0, TRADE_CONID=265598, DEFAULT_SPREAD=0.2, PRICE_DISTORTION_RATE=0.003, ORDER_SIZE_DEFAULT=100, SOURCE_CONID=265598, ACCOUNT=DU242650, TRADE_EXCHANGE=SMART, POSITION_ADJUSTMENT=0, STOP_QUOTING_SIZE=3000, STATIC_OFFSET=-0.0, SIZE_DISTORTION_RATE=0.0}
+2017-08-11 08:17:05 920 DEBUG [AWT-EventQueue-0] QuoteRobotFrame:173 - Finished assigning configs
+2017-08-11 08:18:26 352 DEBUG [AWT-EventQueue-0] ConfigReader:59 - Successfully loaded config: {SOURCE_EXCHANGE=OSE.JPN, HEDGE_MULTIPLIER=100, TRADE_CONID=111987469, DEFAULT_SPREAD=8, PRICE_DISTORTION_RATE=0.003, ORDER_SIZE_DEFAULT=1000, SOURCE_CONID=225305852, ACCOUNT=UCLSCFDF, TRADE_EXCHANGE=SMART, POSITION_ADJUSTMENT=0, STOP_QUOTING_SIZE=5000, STATIC_OFFSET=15, SIZE_DISTORTION_RATE=0.1}
+2017-08-11 08:18:26 430 DEBUG [AWT-EventQueue-0] QuoteRobotFrame:173 - Finished assigning configs
+2017-08-11 08:19:22 484 DEBUG [AWT-EventQueue-0] QuoteRobotFrame:184 - Starting trader thread
+2017-08-11 08:19:22 512 DEBUG [AWT-EventQueue-0] QuoteManager:47 - Initializing Quote Manager
+2017-08-11 08:19:22 514 DEBUG [AWT-EventQueue-0] PositionManager:41 - Initializing Position Manager
+2017-08-11 08:19:22 517 DEBUG [AWT-EventQueue-0] OrderManager:35 - Initializing Order Manager
+2017-08-11 08:19:22 536 INFO  [Thread-0] MainQuoteEngine:47 - ---------------------------Starting Quote Robot---------------------------
+2017-08-11 08:19:22 689 INFO  [Thread-1] IBClient:390 - Account list: DU242650
+2017-08-11 08:19:22 692 DEBUG [Thread-1] IBClient:311 - Next Valid Id: [216]
+2017-08-11 08:19:22 697 ERROR [Thread-1] IBClient:568 - Error. Id: -1, Code: 2104, Msg: Market data farm connection is OK:cafarm
+2017-08-11 08:19:22 698 ERROR [Thread-1] IBClient:568 - Error. Id: -1, Code: 2104, Msg: Market data farm connection is OK:usfarm.us
+2017-08-11 08:19:22 698 ERROR [Thread-1] IBClient:568 - Error. Id: -1, Code: 2104, Msg: Market data farm connection is OK:usfuture
+2017-08-11 08:19:22 699 ERROR [Thread-1] IBClient:568 - Error. Id: -1, Code: 2104, Msg: Market data farm connection is OK:usfuture.us
+2017-08-11 08:19:22 699 ERROR [Thread-1] IBClient:568 - Error. Id: -1, Code: 2104, Msg: Market data farm connection is OK:jfarm
+2017-08-11 08:19:22 700 ERROR [Thread-1] IBClient:568 - Error. Id: -1, Code: 2104, Msg: Market data farm connection is OK:eufarm
+2017-08-11 08:19:22 700 ERROR [Thread-1] IBClient:568 - Error. Id: -1, Code: 2104, Msg: Market data farm connection is OK:usfarm
+2017-08-11 08:19:22 701 ERROR [Thread-1] IBClient:568 - Error. Id: -1, Code: 2104, Msg: Market data farm connection is OK:usopt
+2017-08-11 08:19:22 702 ERROR [Thread-1] IBClient:568 - Error. Id: -1, Code: 2106, Msg: HMDS data farm connection is OK:euhmds
+2017-08-11 08:19:22 702 ERROR [Thread-1] IBClient:568 - Error. Id: -1, Code: 2106, Msg: HMDS data farm connection is OK:ushmds
+2017-08-11 08:19:22 885 INFO  [Thread-0] IBClient:134 - Starting Trader thread
+2017-08-11 08:19:22 886 INFO  [Thread-0] PositionManager:60 - Sent reqPositions()
+2017-08-11 08:19:22 887 DEBUG [Thread-2] CancelHandler:46 - Canceller waiting for notification when order is added to cancel list...
+2017-08-11 08:19:22 887 DEBUG [Thread-0] PositionManager:104 - Verifying positions...
+2017-08-11 08:19:22 888 DEBUG [Thread-0] PositionManager:108 - Waiting for position end to be received...
+2017-08-11 08:19:22 919 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: YM, SecType: FUT, Currency: USD, Position: -1.0, Avg cost: 108332.98
+2017-08-11 08:19:22 919 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: COP, SecType: STK, Currency: USD, Position: 100.0, Avg cost: 44.69
+2017-08-11 08:19:22 920 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: XAUUSD, SecType: CMDTY, Currency: USD, Position: 2.0, Avg cost: 1239.95
+2017-08-11 08:19:22 920 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: SIE, SecType: STK, Currency: EUR, Position: -1.0, Avg cost: 103.4
+2017-08-11 08:19:22 921 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: TSLA, SecType: STK, Currency: USD, Position: 1000.0, Avg cost: 314.0
+2017-08-11 08:19:22 921 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: USD, SecType: CASH, Currency: HKD, Position: -13.0, Avg cost: 7.77623075
+2017-08-11 08:19:22 922 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: DBK, SecType: OPT, Currency: EUR, Position: -24.0, Avg cost: 654.025
+2017-08-11 08:19:22 922 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: VXX, SecType: STK, Currency: USD, Position: -62.0, Avg cost: 36.6
+2017-08-11 08:19:22 922 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: SPY5, SecType: STK, Currency: USD, Position: 100.0, Avg cost: 215.20755
+2017-08-11 08:19:22 923 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: IBUS500, SecType: CFD, Currency: USD, Position: -1900.0, Avg cost: 2475.57541175
+2017-08-11 08:19:22 923 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: CNDT, SecType: STK, Currency: USD, Position: 20.0, Avg cost: 22.5
+2017-08-11 08:19:22 923 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: AMZN, SecType: STK, Currency: USD, Position: 2100.0, Avg cost: 986.455
+2017-08-11 08:19:22 923 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: TNA, SecType: STK, Currency: USD, Position: 4556.0, Avg cost: 54.1075527
+2017-08-11 08:19:22 923 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: USD, SecType: CASH, Currency: CAD, Position: 25000.0, Avg cost: 1.35975
+2017-08-11 08:19:22 923 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: DRQ, SecType: STK, Currency: USD, Position: -100.0, Avg cost: 63.438498
+2017-08-11 08:19:22 924 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: 1127, SecType: STK, Currency: HKD, Position: 20000.0, Avg cost: 1.2021924
+2017-08-11 08:19:22 924 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: USD, SecType: CASH, Currency: JPY, Position: -97262.0, Avg cost: 109.62086525
+2017-08-11 08:19:22 924 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: PGL, SecType: STK, Currency: CAD, Position: 100.0, Avg cost: 25.09
+2017-08-11 08:19:22 924 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: UGAZ, SecType: STK, Currency: USD, Position: -4000.0, Avg cost: 24.7143421
+2017-08-11 08:19:22 924 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: EUR, SecType: CASH, Currency: NOK, Position: 20000.0, Avg cost: 9.50449
+2017-08-11 08:19:22 925 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: EUR, SecType: CASH, Currency: JPY, Position: 20000.0, Avg cost: 138.615
+2017-08-11 08:19:22 925 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: FEZ, SecType: STK, Currency: USD, Position: 400.0, Avg cost: 33.0
+2017-08-11 08:19:22 925 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: ES, SecType: FUT, Currency: USD, Position: 21.0, Avg cost: 123654.4209524
+2017-08-11 08:19:22 925 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: SIRI, SecType: STK, Currency: USD, Position: -100.0, Avg cost: 4.219908
+2017-08-11 08:19:22 925 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: AUD, SecType: CASH, Currency: USD, Position: -32455.0, Avg cost: 0.715398
+2017-08-11 08:19:22 925 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: T, SecType: STK, Currency: USD, Position: 100.0, Avg cost: 40.54
+2017-08-11 08:19:22 926 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: CHF, SecType: CASH, Currency: JPY, Position: 100000.0, Avg cost: 114.739
+2017-08-11 08:19:22 926 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: DBK, SecType: STK, Currency: EUR, Position: 112.0, Avg cost: 17.85
+2017-08-11 08:19:22 926 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: AMU, SecType: STK, Currency: USD, Position: 100.0, Avg cost: 20.01
+2017-08-11 08:19:22 926 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: BIIB, SecType: STK, Currency: USD, Position: -100.0, Avg cost: 279.993777
+2017-08-11 08:19:22 926 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: STM, SecType: STK, Currency: USD, Position: -8370.0, Avg cost: 15.19454965
+2017-08-11 08:19:22 926 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: GBP, SecType: CASH, Currency: JPY, Position: -50000.0, Avg cost: 156.2772
+2017-08-11 08:19:22 927 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: AUD, SecType: CASH, Currency: CAD, Position: 1234.0, Avg cost: 0.9905
+2017-08-11 08:19:22 927 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: CSCO, SecType: STK, Currency: USD, Position: 200.0, Avg cost: 33.915
+2017-08-11 08:19:22 927 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: IBKR, SecType: STK, Currency: USD, Position: 2013.0, Avg cost: 36.9035835
+2017-08-11 08:19:22 927 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: FAGR, SecType: STK, Currency: EUR, Position: -500.0, Avg cost: 10.22976
+2017-08-11 08:19:22 927 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: GRPN, SecType: STK, Currency: USD, Position: 100.0, Avg cost: 5.06
+2017-08-11 08:19:22 927 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: VIX, SecType: FUT, Currency: USD, Position: 68.0, Avg cost: 14126.5647059
+2017-08-11 08:19:22 928 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: IMGN, SecType: STK, Currency: USD, Position: 100.0, Avg cost: 2.07
+2017-08-11 08:19:22 928 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: CULP, SecType: STK, Currency: USD, Position: 100.0, Avg cost: 33.06
+2017-08-11 08:19:22 928 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: AAC, SecType: STK, Currency: USD, Position: 100.0, Avg cost: 17.19
+2017-08-11 08:19:22 929 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: UVXY, SecType: STK, Currency: USD, Position: 5.0, Avg cost: 160.0
+2017-08-11 08:19:22 929 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: XRX, SecType: STK, Currency: USD, Position: 25.0, Avg cost: 18.0
+2017-08-11 08:19:22 929 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: MCD, SecType: STK, Currency: USD, Position: -208.0, Avg cost: 151.49926825
+2017-08-11 08:19:22 930 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: MJPI, SecType: STK, Currency: USD, Position: 200.0, Avg cost: 0.3046
+2017-08-11 08:19:22 930 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: BIO4, SecType: STK, Currency: EUR, Position: 80.0, Avg cost: 27.539
+2017-08-11 08:19:22 930 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: KERX, SecType: STK, Currency: USD, Position: 100.0, Avg cost: 4.61
+2017-08-11 08:19:22 930 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: EUR, SecType: CASH, Currency: USD, Position: 100000.0, Avg cost: 1.17252345
+2017-08-11 08:19:22 931 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: FB, SecType: STK, Currency: USD, Position: 19500.0, Avg cost: 157.1305411
+2017-08-11 08:19:22 931 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: AABA, SecType: STK, Currency: USD, Position: 100.0, Avg cost: 50.37
+2017-08-11 08:19:22 931 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: XIU, SecType: STK, Currency: CAD, Position: 100.0, Avg cost: 21.43
+2017-08-11 08:19:22 932 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: GBP, SecType: CASH, Currency: USD, Position: 25033.0, Avg cost: 1.32756345
+2017-08-11 08:19:22 932 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: MOXC, SecType: STK, Currency: USD, Position: 1000.0, Avg cost: 3.805
+2017-08-11 08:19:22 932 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: NTES, SecType: STK, Currency: USD, Position: -6.0, Avg cost: 211.82036665
+2017-08-11 08:19:22 932 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: JPY, SecType: FUT, Currency: USD, Position: 1.0, Avg cost: 111150.3767
+2017-08-11 08:19:22 933 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: JNUG, SecType: STK, Currency: USD, Position: 30.0, Avg cost: 33.35333335
+2017-08-11 08:19:22 933 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: VIX, SecType: FUT, Currency: USD, Position: -68.0, Avg cost: 15142.5529412
+2017-08-11 08:19:22 933 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: MSFT, SecType: STK, Currency: USD, Position: 700.0, Avg cost: 62.23619045
+2017-08-11 08:19:22 934 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: USD, SecType: CASH, Currency: MXN, Position: -49824.0, Avg cost: 18.3524
+2017-08-11 08:19:22 934 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: BTE, SecType: STK, Currency: USD, Position: 100.0, Avg cost: 4.41
+2017-08-11 08:19:22 934 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: EUR, SecType: CASH, Currency: CAD, Position: 20000.0, Avg cost: 1.47255
+2017-08-11 08:19:22 934 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: IBUST100, SecType: CFD, Currency: USD, Position: 100.0, Avg cost: 5683.618305
+2017-08-11 08:19:22 935 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: SI, SecType: FUT, Currency: USD, Position: 2.0, Avg cost: 79477.36
+2017-08-11 08:19:22 946 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: VXX, SecType: CFD, Currency: USD, Position: -11637.0, Avg cost: 31.095
+2017-08-11 08:19:22 946 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: KEY, SecType: STK, Currency: USD, Position: 200.0, Avg cost: 17.1
+2017-08-11 08:19:22 947 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: GOOG, SecType: STK, Currency: USD, Position: -90.0, Avg cost: 614.98647445
+2017-08-11 08:19:22 947 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: TOL, SecType: STK, Currency: USD, Position: -200.0, Avg cost: 31.604192
+2017-08-11 08:19:22 947 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: SPY, SecType: STK, Currency: USD, Position: 100.0, Avg cost: 215.0
+2017-08-11 08:19:22 947 DEBUG [Thread-1] IBClient:487 - Position. DU242650 - Symbol: IBM, SecType: STK, Currency: USD, Position: 10010.0, Avg cost: 154.8727934
+2017-08-11 08:19:22 947 DEBUG [Thread-1] IBClient:503 - Received PositionEnd, notifying Position Manager.
+2017-08-11 08:19:22 947 DEBUG [Thread-0] PositionManager:116 - PositionEnd is received, calculating dynamicOffset
+2017-08-11 08:19:22 948 DEBUG [Thread-0] PositionManager:77 - Returning current trade position = 0.0
+2017-08-11 08:19:22 948 DEBUG [Thread-0] PositionManager:85 - Returning current source position = 0.0
+2017-08-11 08:19:22 948 DEBUG [Thread-0] PositionManager:68 - Returning Hedged Trade Position = 0.0(tradePosition) + 100.0(hedgeMultiplier) * 0.0(hedgePoisition) = 0.0
+2017-08-11 08:19:22 948 DEBUG [Thread-0] PositionManager:131 - Calculated dynamicOffset = -1.0 * 0.0 * 0.003 = -0.0
+2017-08-11 08:19:22 948 DEBUG [Thread-0] PositionManager:134 - Dynamic Offset has been changed: 1.7976931348623157E308 -> -0.0. Triggering Order Monitor
+2017-08-11 08:19:22 949 DEBUG [Thread-0] PositionManager:152 - Returning dynamicOffset = -0.0
+2017-08-11 08:19:22 949 DEBUG [Thread-0] QuoteManager:136 - Failed to calculate trade bid price because either source bid price or dynamic offset is missing
+2017-08-11 08:19:23 049 DEBUG [Thread-0] PositionManager:152 - Returning dynamicOffset = -0.0
+2017-08-11 08:19:23 049 DEBUG [Thread-0] QuoteManager:156 - Failed to calculate trade ask price because either source ask price or dynamic offset is missing
+2017-08-11 08:19:23 149 DEBUG [Thread-0] OrderManager:146 - Triggerring Order Monitor
+2017-08-11 08:19:23 150 DEBUG [Thread-0] QuoteManager:66 - Sent market data request for source contract. ConId = 225305852
+2017-08-11 08:19:23 150 DEBUG [Thread-0] QuoteManager:187 - Verifying if all tick types are received for order placement...
+2017-08-11 08:19:23 150 DEBUG [Thread-0] QuoteManager:193 - Waiting for more quotes to be received...
+2017-08-11 08:19:23 163 INFO  [Thread-1] IBClient:722 - Tick req params. Ticker Id:1000, Min tick: 5.0, bbo exchange: null, Snapshot permissions: 0
+2017-08-11 08:19:23 173 DEBUG [Thread-1] IBClient:142 - Received Bid Price = 0.0
+2017-08-11 08:19:23 174 DEBUG [Thread-1] QuoteManager:74 - Detected source Bid Price is changed
+2017-08-11 08:19:23 174 DEBUG [Thread-1] QuoteManager:83 - Updated info: sourceBidPrice = 0.0, sourceMidpoint = -1.0
+2017-08-11 08:19:23 174 DEBUG [Thread-1] PositionManager:152 - Returning dynamicOffset = -0.0
+2017-08-11 08:19:23 175 DEBUG [Thread-1] QuoteManager:131 - Calculated trade bid price = 0.0(sourceBidPrice) + 15.0(staticOffset) + -0.0(dynamicOffset) - 8.0(defaultSpread) = 7.0 (rounded down)
+2017-08-11 08:19:23 275 DEBUG [Thread-1] QuoteManager:91 - Triggering order monitor to update trade bid price
+2017-08-11 08:19:23 275 DEBUG [Thread-1] OrderManager:146 - Triggerring Order Monitor
+2017-08-11 08:19:23 275 DEBUG [Thread-1] IBClient:146 - Received more tick price, notifying QuoteManager
+2017-08-11 08:19:23 275 DEBUG [Thread-0] QuoteManager:193 - Waiting for more quotes to be received...
+2017-08-11 08:19:23 276 DEBUG [Thread-1] IBClient:149 - Received Ask Price = 0.0
+2017-08-11 08:19:23 276 DEBUG [Thread-1] QuoteManager:100 - Detected source Ask Price is changed
+2017-08-11 08:19:23 276 DEBUG [Thread-1] QuoteManager:110 - Updated info: sourceAskPrice = 0.0, sourceMidpoint = 0.0
+2017-08-11 08:19:23 277 DEBUG [Thread-1] PositionManager:152 - Returning dynamicOffset = -0.0
+2017-08-11 08:19:23 277 DEBUG [Thread-1] QuoteManager:151 - Calculated trade ask price = 0.0(sourceAskPrice) + 15.0(staticOffset) + -0.0(dynamicOffset) + 8.0(defaultSpread) = 23.0 (rounded up)
+2017-08-11 08:19:23 277 DEBUG [Thread-1] QuoteManager:118 - Triggering order monitor to update trade ask price
+2017-08-11 08:19:23 277 DEBUG [Thread-1] OrderManager:146 - Triggerring Order Monitor
+2017-08-11 08:19:23 278 DEBUG [Thread-1] IBClient:153 - Received more tick price, notifying QuoteManager
+2017-08-11 08:19:23 278 DEBUG [Thread-0] QuoteManager:202 - Confirm all tick types are received.
+2017-08-11 08:19:23 278 DEBUG [Thread-0] OrderManager:47 - Sent reqOpenOrders()
+2017-08-11 08:19:23 280 DEBUG [Thread-3] PositionMonitor:47 - Starting position monitor
+2017-08-11 08:19:23 280 DEBUG [Thread-3] PositionMonitor:55 - Checking current position...
+2017-08-11 08:19:23 280 DEBUG [Thread-3] PositionManager:77 - Returning current trade position = 0.0
+2017-08-11 08:19:23 280 DEBUG [Thread-3] PositionManager:85 - Returning current source position = 0.0
+2017-08-11 08:19:23 281 DEBUG [Thread-3] PositionManager:68 - Returning Hedged Trade Position = 0.0(tradePosition) + 100.0(hedgeMultiplier) * 0.0(hedgePoisition) = 0.0
+2017-08-11 08:19:23 280 DEBUG [Thread-4] OrderHandler:78 - OrderHandler waiting for notification when order is added the list...
+2017-08-11 08:19:23 281 DEBUG [Thread-3] PositionMonitor:65 - Position was within quoting size band
+2017-08-11 08:19:23 281 DEBUG [Thread-3] PositionMonitor:90 - Position is still within quoting size band, do noting
+2017-08-11 08:19:23 283 DEBUG [Thread-1] IBClient:264 - OpenOrderEnd
+2017-08-11 08:19:23 283 DEBUG [Thread-1] IBClient:269 - Received OpenOrderEnd, notifying Order Manager.
+2017-08-11 08:19:23 780 DEBUG [Thread-0] OrderManager:146 - Triggerring Order Monitor
+2017-08-11 08:19:23 780 DEBUG [Thread-4] OrderHandler:85 - OrderHandler notified about order needs to be managed
+2017-08-11 08:19:23 780 DEBUG [Thread-4] OrderHandler:129 - All orders are received, continue to verify order.
+2017-08-11 08:19:23 781 DEBUG [Thread-4] OrderHandler:196 - Orders are verified. Returning [2147483647, 2147483647]
+2017-08-11 08:19:23 781 DEBUG [Thread-4] OrderHandler:137 - Buy order is missing from map, placing new buy order
+2017-08-11 08:19:23 781 DEBUG [Thread-4] QuoteManager:164 - Returning trade bid price = 7.0
+2017-08-11 08:19:23 781 DEBUG [Thread-4] PositionManager:77 - Returning current trade position = 0.0
+2017-08-11 08:19:23 782 DEBUG [Thread-4] PositionManager:85 - Returning current source position = 0.0
+2017-08-11 08:19:23 782 DEBUG [Thread-4] PositionManager:68 - Returning Hedged Trade Position = 0.0(tradePosition) + 100.0(hedgeMultiplier) * 0.0(hedgePoisition) = 0.0
+2017-08-11 08:19:23 800 INFO  [Thread-4] OrderHandler:236 - Placed BUY order (216) for 111987469@SMART: 1000@7.0
+2017-08-11 08:19:23 800 DEBUG [Thread-4] OrderHandler:242 - Order Handler waiting for first ACK for orderId = 216
+2017-08-11 08:19:23 967 ERROR [Thread-1] IBClient:568 - Error. Id: 216, Code: 2109, Msg: Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2017-08-11 08:19:24 087 ERROR [Thread-1] IBClient:568 - Error. Id: 216, Code: 399, Msg: Order Message:
+BUY 1,000 IBJP225 CFD
+Warning: your order will not be placed at the exchange until 2017-08-14 01:00:00 GB-Eire
+2017-08-11 08:19:24 108 DEBUG [Thread-1] IBClient:243 - OpenOrder. ID: 216, IBJP225, CFD @ SMART: BUY 1000.0, LMT@7.0, PreSubmitted
+2017-08-11 08:19:24 108 DEBUG [Thread-1] IBClient:252 - First open order/exec is received for orderId = 216, notifying Order Handler
+2017-08-11 08:19:24 108 DEBUG [Thread-4] OrderHandler:250 - Order ACK for orderId = 216 is received! Proceeding
+2017-08-11 08:19:24 109 DEBUG [Thread-4] QuoteManager:171 - Returning trade ask price = 23.0
+2017-08-11 08:19:24 109 DEBUG [Thread-4] PositionManager:77 - Returning current trade position = 0.0
+2017-08-11 08:19:24 109 DEBUG [Thread-4] PositionManager:85 - Returning current source position = 0.0
+2017-08-11 08:19:24 109 DEBUG [Thread-4] PositionManager:68 - Returning Hedged Trade Position = 0.0(tradePosition) + 100.0(hedgeMultiplier) * 0.0(hedgePoisition) = 0.0
+2017-08-11 08:19:24 110 DEBUG [Thread-1] OrderManager:70 - Added open order. Order: BUY 1000.0. {216=com.ib.order.OrderInfo@187bc74}
+2017-08-11 08:19:24 110 INFO  [Thread-4] OrderHandler:293 - Placed SELL order (217) for 111987469@SMART: 1000@23.0
+2017-08-11 08:19:24 110 DEBUG [Thread-4] OrderHandler:299 - Order Handler waiting for first ACK for orderId = 217
+2017-08-11 08:19:24 110 DEBUG [Thread-1] IBClient:210 - OrderStatus. Id: 216, Status: PreSubmitted, Filled: 0.0, Remaining: 1000.0, AvgFillPrice: 0.0, PermId: 2108838395, ParentId: 0, LastFillPrice: 0.0, ClientId: 0, WhyHeld: locate, MktCapPrice: 0.0
+2017-08-11 08:19:24 111 DEBUG [Thread-1] OrderManager:88 - Updated order status. Order: BUY 1000.0, Filled: 0.0
+2017-08-11 08:19:24 118 ERROR [Thread-1] IBClient:568 - Error. Id: 217, Code: 2109, Msg: Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2017-08-11 08:19:24 378 ERROR [Thread-1] IBClient:568 - Error. Id: 217, Code: 399, Msg: Order Message:
+SELL 1,000 IBJP225 CFD
+Warning: your order will not be placed at the exchange until 2017-08-14 01:00:00 GB-Eire
+2017-08-11 08:19:24 381 DEBUG [Thread-1] IBClient:243 - OpenOrder. ID: 217, IBJP225, CFD @ SMART: SELL 1000.0, LMT@23.0, PreSubmitted
+2017-08-11 08:19:24 381 DEBUG [Thread-1] IBClient:252 - First open order/exec is received for orderId = 217, notifying Order Handler
+2017-08-11 08:19:24 381 DEBUG [Thread-1] OrderManager:70 - Added open order. Order: SELL 1000.0. {216=com.ib.order.OrderInfo@187bc74, 217=com.ib.order.OrderInfo@1a54ab}
+2017-08-11 08:19:24 381 DEBUG [Thread-1] IBClient:210 - OrderStatus. Id: 217, Status: PreSubmitted, Filled: 0.0, Remaining: 1000.0, AvgFillPrice: 0.0, PermId: 2108838396, ParentId: 0, LastFillPrice: 0.0, ClientId: 0, WhyHeld: locate, MktCapPrice: 0.0
+2017-08-11 08:19:24 381 DEBUG [Thread-1] OrderManager:88 - Updated order status. Order: SELL 1000.0, Filled: 0.0
+2017-08-11 08:19:24 381 DEBUG [Thread-4] OrderHandler:307 - Order ACK for orderId = 217 is received! Proceeding
+2017-08-11 08:19:24 381 DEBUG [Thread-4] OrderHandler:78 - OrderHandler waiting for notification when order is added the list...
+2017-08-11 08:19:24 387 DEBUG [Thread-1] IBClient:243 - OpenOrder. ID: 216, IBJP225, CFD @ SMART: BUY 1000.0, LMT@7.0, Submitted
+2017-08-11 08:19:24 388 DEBUG [Thread-1] OrderManager:64 - Updated open order. Order: BUY 1000.0, Filled: 0.0
+2017-08-11 08:19:24 388 DEBUG [Thread-1] IBClient:210 - OrderStatus. Id: 216, Status: Submitted, Filled: 0.0, Remaining: 1000.0, AvgFillPrice: 0.0, PermId: 2108838395, ParentId: 0, LastFillPrice: 0.0, ClientId: 0, WhyHeld: null, MktCapPrice: 0.0
+2017-08-11 08:19:24 388 DEBUG [Thread-1] OrderManager:88 - Updated order status. Order: BUY 1000.0, Filled: 0.0
+2017-08-11 08:19:24 390 DEBUG [Thread-1] IBClient:243 - OpenOrder. ID: 217, IBJP225, CFD @ SMART: SELL 1000.0, LMT@23.0, Submitted
+2017-08-11 08:19:24 390 DEBUG [Thread-1] OrderManager:64 - Updated open order. Order: SELL 1000.0, Filled: 0.0
+2017-08-11 08:19:24 390 DEBUG [Thread-1] IBClient:210 - OrderStatus. Id: 217, Status: Submitted, Filled: 0.0, Remaining: 1000.0, AvgFillPrice: 0.0, PermId: 2108838396, ParentId: 0, LastFillPrice: 0.0, ClientId: 0, WhyHeld: null, MktCapPrice: 0.0
+2017-08-11 08:19:24 391 DEBUG [Thread-1] OrderManager:88 - Updated order status. Order: SELL 1000.0, Filled: 0.0

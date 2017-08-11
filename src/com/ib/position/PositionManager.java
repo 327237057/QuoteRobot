@@ -6,8 +6,6 @@
 package com.ib.position;
 
 import com.ib.api.IBClient;
-import com.ib.config.ConfigReader;
-import com.ib.config.Configs;
 import com.ib.order.OrderManager;
 import org.apache.log4j.Logger;
 import java.util.concurrent.ConcurrentHashMap;

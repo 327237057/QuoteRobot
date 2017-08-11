@@ -6,15 +6,10 @@
 package com.ib.gui;
 
 import com.ib.api.IBClient;
-import com.ib.client.EReader;
-import com.ib.client.EReaderSignal;
 import org.apache.log4j.Logger;
 import com.ib.engine.MainQuoteEngineForGUI;
 import com.ib.thread.ExecutorPool;
-import java.util.concurrent.TimeUnit;
-import java.util.List;
 import com.ib.config.ConfigReader;
-import javax.swing.JOptionPane;
 
 /**
  *

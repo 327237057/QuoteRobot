@@ -7,10 +7,8 @@ package com.ib.order;
 
 import com.ib.api.IBClient;
 import org.apache.log4j.Logger;
-import java.util.HashMap;
 import com.ib.client.Order;
 import com.ib.client.Types;
-import com.ib.config.*;
 import java.util.Iterator;
 import java.util.concurrent.ConcurrentHashMap;
 import com.ib.gui.OrderTableModel;

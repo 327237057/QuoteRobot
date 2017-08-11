@@ -10,8 +10,6 @@ import org.apache.log4j.Logger;
 import com.ib.quote.QuoteManager;
 import com.ib.position.*;
 import com.ib.thread.ExecutorPool;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ExecutorService;
 
 /**
  *

@@ -7,8 +7,6 @@ package com.ib.position;
 
 import com.ib.api.IBClient;
 import com.ib.client.Types;
-import com.ib.config.ConfigReader;
-import com.ib.config.Configs;
 import com.ib.gui.ConfigFrame;
 import com.ib.order.OrderManager;
 import org.apache.log4j.Logger;

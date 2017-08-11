@@ -7,7 +7,6 @@ package com.ib.quote;
 
 import com.ib.api.IBClient;
 import org.apache.log4j.Logger;
-import com.ib.config.*;
 import com.ib.client.Contract;
 import com.ib.gui.ConfigFrame;
 import com.ib.position.*;
@@ -128,9 +127,7 @@ public class QuoteManager {
             
             double dynamicOffset = m_client.getPositionManager().getDynamicOffset();
             if(sourceBidPrice != -1 && dynamicOffset != Double.MAX_VALUE){
-                //tradeBidPrice = Math.floor(sourceBidPrice + staticOffset + dynamicOffset - defaultSpread);
-                // TEST
-                tradeBidPrice = sourceBidPrice + staticOffset + dynamicOffset - defaultSpread;
+                tradeBidPrice = Math.floor(sourceBidPrice + staticOffset + dynamicOffset - defaultSpread);
                 LOG.debug("Calculated trade bid price = " + sourceBidPrice + "(sourceBidPrice) + " +
                         staticOffset + "(staticOffset) + " + dynamicOffset + "(dynamicOffset) - " + defaultSpread +
                         "(defaultSpread) = " + tradeBidPrice + " (rounded down)");
@@ -150,9 +147,7 @@ public class QuoteManager {
             
             double dynamicOffset = m_positionManager.getDynamicOffset();
             if(sourceAskPrice != -1 && dynamicOffset != Double.MAX_VALUE){
-                //tradeAskPrice = Math.ceil(sourceAskPrice + staticOffset + dynamicOffset + defaultSpread);
-                // TEST
-                tradeAskPrice = sourceAskPrice + staticOffset + dynamicOffset + defaultSpread;
+                tradeAskPrice = Math.ceil(sourceAskPrice + staticOffset + dynamicOffset + defaultSpread);
                 LOG.debug("Calculated trade ask price = " + sourceAskPrice + "(sourceAskPrice) + " +
                         staticOffset + "(staticOffset) + " + dynamicOffset + "(dynamicOffset) + " + defaultSpread +
                         "(defaultSpread) = " + tradeAskPrice + " (rounded up)");

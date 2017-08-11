@@ -8,7 +8,6 @@ package com.ib.gui;
 import com.ib.api.IBClient;
 import com.ib.config.*;
 import java.util.HashMap;
-import javax.swing.JTextField;
 import org.apache.log4j.Logger;
 
 /**

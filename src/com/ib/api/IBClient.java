@@ -9,8 +9,6 @@ import java.util.Set;
 import org.apache.log4j.Logger;
 
 import com.ib.client.*;
-import com.ib.config.ConfigReader;
-import com.ib.config.Configs;
 import com.ib.gui.OrderTableModel;
 import com.ib.quote.QuoteManager;
 import com.ib.position.*;
@@ -131,8 +129,7 @@ public class IBClient implements EWrapper {
     public void setPauseExecution(boolean v){
         pauseExecution.set(v);
     }
-    
-    // Test start
+
     public void start(){
         LOG.info("Starting Trader thread");
         m_trader.startTrade();

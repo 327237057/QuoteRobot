@@ -11,8 +11,6 @@ import com.ib.api.IBReader;
 import com.ib.client.EReaderSignal;
 import com.ib.client.EReader;
 import com.ib.gui.ConfigFrame;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ExecutorService;
 import com.ib.thread.ExecutorPool;
 
 /**
@@ -46,7 +44,7 @@ public class MainQuoteEngineForGUI implements Runnable{
     }
     
     public void initiateConnection() {
-        LOG.info("---------------------------Starting Morgan Stanley Quote Test---------------------------");
+        LOG.info("---------------------------Starting Quote Robot---------------------------");
         
         if(m_client == null){
             m_client = IBClient.getInstance();
